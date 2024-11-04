@@ -72,43 +72,44 @@ document.addEventListener("DOMContentLoaded", () => {
             maintainAspectRatio: true,
             scales: {
                 x: {
-                    title: {
-                        display: true,
-                        text: "Year",
-                        color: "black",
-                        font: { family: "Rampart One", size: 25 },
-                    },
-                    ticks: {
-                        autoSkip: false,
-                        maxRotation: 90,
-                        minRotation: 45,
-                        color: "black",
-                        font: { size: 15 },
-                    },
-                },
-                    y: {
-                    title: {
-                        display: true,
-                        text: "Happiness Index",
-                        color: "black",
-                        font: { family: "Rampart One", size: 25 },
-                    },
-                    ticks: { autoSkip: false, },
-                 },
-                 },
-                },
-                plugins: {
-                    legend: {
+                title: {
                     display: true,
-                    position: "top",
-                    labels: {
-                        color: "black",
-                        font: { family: "Rampart One", size: 20 },
-                    },
+                    text: "Year",
+                    color: "black",
+                    font: { family: "Rampart One", size: 25 },
+                },
+                ticks: {
+                    autoSkip: false,
+                    maxRotation: 90,
+                    minRotation: 45,
+                    color: "black",
+                    font: { size: 15 },
                 },
                 },
-            }
-            );
+                y: {
+                title: {
+                    display: true,
+                    text: "Happiness Index",
+                    color: "black",
+                    font: { family: "Rampart One", size: 25 },
+                },
+                ticks: { autoSkip: false, color: "black", font: { size: 15 } },
+                },
+            },
+            plugins: {
+                legend: {
+                display: true,
+                position: "top",
+                labels: {
+                    color: "black",
+                    font: { family: "Rampart One", size: 20 },
+                },
+                },
+            },
+            },
+        }
+        );
+        
         //Make table
         //populateTable(originalData);
     };
@@ -131,7 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  //Add toggle for bar line graph
 
   fetchDataAndRenderChart(true);
 });
