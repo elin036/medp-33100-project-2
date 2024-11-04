@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happiness Index Chart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="chart-size">
+      <label class="switch">
+        <input type="checkbox" id="toggleChartTypeButton" />
+        <span class="slider round">😊</span>
+      </label>
+
+      <canvas id="happinessChart"></canvas>
+    </div>
+
+    <div class="button-container">
+      <button id="happiestButton">Most Happiest</button>
+      <button id="saddestButton">Least Happiest</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
