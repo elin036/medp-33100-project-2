@@ -75,25 +75,35 @@ document.addEventListener("DOMContentLoaded", () => {
                     title: {
                         display: true,
                         text: "Year",
+                        color: "black",
+                        font: { family: "Rampart One", size: 25 },
                     },
                     ticks: {
                         autoSkip: false,
                         maxRotation: 90,
                         minRotation: 45,
+                        color: "black",
+                        font: { size: 15 },
                     },
-                    },
+                },
                     y: {
                     title: {
                         display: true,
                         text: "Happiness Index",
+                        color: "black",
+                        font: { family: "Rampart One", size: 25 },
                     },
                     ticks: { autoSkip: false, },
-                    },
+                 },
+                 },
                 },
                 plugins: {
                     legend: {
                     display: true,
                     position: "top",
+                    labels: {
+                        color: "black",
+                        font: { family: "Rampart One", size: 20 },
                     },
                 },
                 },

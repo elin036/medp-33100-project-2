@@ -48,3 +48,100 @@ button {
   text-align: center;
   font-size: 20px;
 }
+/* W3Schools switch slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 40px;
+}
+
+.switch input {
+  opacity: 0; /* Hide the checkbox */
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #faee8e;
+  transition: background-color 0.8s;
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Start with the emoji on the left */
+  font-size: 25px;
+  padding: 0 4px;
+  border-radius: 30px;
+}
+
+input:checked + .slider {
+  background-color: #fad48e; /* Change background color when checked */
+  justify-content: flex-end; /* Move the emoji to the right */
+}
+/*end of switch slider css*/
+
+#countryTable {
+  margin: 0 auto; /* Center the table */
+  display: table; /* Ensure it behaves like a table */
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  width: 80%; /* Set a fixed width or adjust as needed */
+}
+
+#countryTable > thead > tr > th,
+#countryTable > tbody > tr > td {
+  border: 1px solid #cccccc; /* Light gray border for cells */
+  padding: 10px; /* Padding inside cells for better spacing */
+  text-align: left; /* Align text to the left */
+  font-weight: 400, bold;
+  font-style: normal;
+  text-align: center; /* Center the text */
+}
+
+#countryTable > thead > tr > th {
+  background-color: #fac48e; /* Light background for table headers */
+  font-weight: 400, bold;
+  font-style: normal;
+  text-align: center; /* Center the text */
+  font-size: 20px; /* Increase font size; adjust as needed */
+}
+
+#countryTable > tbody > tr:not(.details) > td:first-child {
+  font-family: "Rampart One", sans-serif;
+  font-weight: bold; /* Keeps the text bold if needed */
+}
+
+/* Additional styles for the nested table if needed */
+.nested-table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.nested-table th {
+  padding-bottom: 10px;
+}
+.nested-table td {
+  border: 1px solid #000000; /* Black border for each cell */
+  padding: 8px; /* Add padding for better readability */
+  text-align: center; /* Center the text */
+}
+.nested-table tr:hover {
+  background-color: #faee8e; /* Highlight color for the whole row */
+}
+/* Hide details row by default */
+.details {
+  display: none; /* Hide details row by default */
+  background-color: #ffeed3;
+  text-align: center; /* Center the text */
+  font-size: 17px; /* Increase font size; adjust as needed */
+}
+
+.expandable-row:hover {
+  cursor: pointer;
+  background-color: #faee8e;
+}
