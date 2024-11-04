@@ -27,7 +27,7 @@
  
 ## **Live Demo**
 
-- https://wooden-frill-teacher.glitch.me
+- https://group-7---project-2.glitch.me 
 
 ## **Credits**
 
