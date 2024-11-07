@@ -1,8 +1,6 @@
 ## **Project Overview**
 
-- Creating a page that shows the world happiness index from 2013-2023.
-- Creaters are able to easily view the top 10 happiest and unhappist countries with a click of buttons
-- Visually see the data with a data chart, bar graph, and line graph
+- The project aims to create an engaging and interactive page that presents the World Happiness Index from 2013 to 2023. Users can explore the data through features highlighting the top 10 happiest and unhappiest countries, alongside a comprehensive table displaying all countries. The page will feature bar and line graphs to clearly illustrate happiness trends over the years, providing a visually appealing experience.
 
 ## **Project Members**
 
@@ -21,9 +19,9 @@
 ## **Technologies Used**
 
 - List the technologies and tools used in the project:
-    - APIs
-    - Libraries
-    - Other
+    - Figma: https://www.figma.com/design/hxJgWd2K8WKNTFOvywuTy6/Project-2?node-id=0-1&node-type=canvas&t=eh0wJH9UIhBMEZua-0
+    - Library: Chart.js
+    - Playfair Display font: https://fonts.google.com/specimen/Playfair+Display
  
 ## **Live Demo**
 
@@ -31,12 +29,11 @@
 
 ## **Credits**
 
-- List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
+- We used the CSV from kraggle : https://www.kaggle.com/datasets/simonaasm/world-happiness-index-by-reports-2013-2023
+- We used W3Schools to help with the coding of the slider and switch function.
+- We also used samples to learn and help create our graphs : https://www.chartjs.org/docs/latest/samples/line/line.html 
 
-We used W3Schools to help with the coding of the slider and switch function.
 ## **Future Enhancements**
 
-- List any future enhancements you would like to make or improve given more time.
-
-- Make the page more interactive with maybe a map graph and using real images or 3D design 
+- Change the table into a graph and have points in the map to represent the country.
+- Improve the bargraph so it's more readable

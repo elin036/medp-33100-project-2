@@ -201,8 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  document
-    .getElementById("toggleChartTypeButton")
+  document.getElementById("toggleChartTypeButton")
     .addEventListener("click", () => {
       currentChartType = currentChartType === "line" ? "bar" : "line";
       renderChart(currentView === "happiest", chartDataCache);
